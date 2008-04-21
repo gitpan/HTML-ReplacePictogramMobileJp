@@ -1,10 +1,11 @@
 --- 
 abstract: "HTML \xE3\x81\xAB\xE5\x90\xAB\xE3\x81\xBE\xE3\x82\x8C\xE3\x82\x8B\xE7\xB5\xB5\xE6\x96\x87\xE5\xAD\x97\xE3\x82\x92\xE7\xBD\xAE\xE6\x8F\x9B\xE3\x81\x99\xE3\x82\x8B"
-author: Tokuhiro Matsuno <tokuhirom@gmail.com>
+author: 
+  - Tokuhiro Matsuno <tokuhirom@gmail.com>
 build_requires: 
   Test::More: 0
 distribution_type: module
-generated_by: Module::Install version 0.650
+generated_by: Module::Install version 0.68
 license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -19,4 +20,4 @@ requires:
   Encode::JP::Mobile: 0.22
   File::ShareDir: 0
   Params::Validate: 0
-version: 0.03
+version: 0.04

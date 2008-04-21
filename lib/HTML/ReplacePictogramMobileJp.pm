@@ -1,7 +1,7 @@
 package HTML::ReplacePictogramMobileJp;
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 use Params::Validate ':all';
 use HTML::ReplacePictogramMobileJp::DoCoMo;
 use HTML::ReplacePictogramMobileJp::EZweb;
@@ -37,6 +37,8 @@ sub replace {
 __END__
 
 =encoding utf8
+
+=for stopwords au
 
 =head1 NAME
 
