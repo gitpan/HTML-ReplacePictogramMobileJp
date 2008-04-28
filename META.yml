@@ -20,4 +20,4 @@ requires:
   Encode::JP::Mobile: 0.22
   File::ShareDir: 0
   Params::Validate: 0
-version: 0.04
+version: 0.05

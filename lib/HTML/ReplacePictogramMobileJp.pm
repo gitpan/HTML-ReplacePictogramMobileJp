@@ -1,7 +1,7 @@
 package HTML::ReplacePictogramMobileJp;
 use strict;
 use warnings;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 use Params::Validate ':all';
 use HTML::ReplacePictogramMobileJp::DoCoMo;
 use HTML::ReplacePictogramMobileJp::EZweb;
@@ -66,6 +66,10 @@ HTML::ReplacePictogramMobileJp は HTML に含まれる絵文字を置換する�
 =head1 AUTHOR
 
 Tokuhiro Matsuno E<lt>tokuhirom@gmail.comE<gt>
+
+=head1 THANKS TO
+
+Kazuhiro Osawa
 
 =head1 SEE ALSO
 
