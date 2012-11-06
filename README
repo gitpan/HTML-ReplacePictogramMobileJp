@@ -1,27 +1,33 @@
-This is Perl module HTML::ReplacePictogramMobileJp.
+NAME
+    HTML::ReplacePictogramMobileJp - HTML に含まれる絵文字を置換する
 
-INSTALLATION
+SYNOPSIS
+        use HTML::ReplacePictogramMobileJp;
 
-HTML::ReplacePictogramMobileJp installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
+        HTML::ReplacePictogramMobileJp->replace(
+            carrier  => 'I',
+            html     => "foo",
+            charset  => 'sjis', # or utf8
+            callback => sub {
+                my ( $unicode, $carrier ) = @_;
+                # なにかする
+            },
+        );
 
-    % cpan HTML::ReplacePictogramMobileJp
+DESCRIPTION
+    HTML::ReplacePictogramMobileJp は HTML に含まれる絵文字を置換するライブラリです。
+    どのように置換するかは、コールバック関数で指定します。
 
-Download it, unpack it, then build it as per the usual:
+AUTHOR
+    Tokuhiro Matsuno <tokuhirom@gmail.com>
 
-    % perl Makefile.PL
-    % make && make test
+THANKS TO
+    Kazuhiro Osawa
 
-Then install it:
+SEE ALSO
+    Encode::JP::Mobile, Moxy
 
-    % make install
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-DOCUMENTATION
-
-HTML::ReplacePictogramMobileJp documentation is available as in POD. So you can do:
-
-    % perldoc HTML::ReplacePictogramMobileJp
-
-to read the documentation online with your favorite pager.
-
-Tokuhiro Matsuno
